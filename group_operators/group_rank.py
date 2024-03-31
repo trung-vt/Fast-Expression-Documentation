@@ -5,9 +5,9 @@ def group_rank(x, group):
     Each element in a group is assigned the corresponding rank in this group.
 
     Example:
-    x          = [5, 1, 8, 3, 2, 7, 4, 6]
-    group      = [A, A, B, A, B, B, A, B]
-    group_rank = [4, 1, 4, 2, 1, 3, 3, 2]
+    x                    = [5, 1, 8, 3, 2, 7, 4, 6]
+    group                = [A, A, B, A, B, B, A, B]
+    group_rank(x, group) = [4, 1, 4, 2, 1, 3, 3, 2]
     
     Explain: 
      For group A, the values in x are [5, 1, 3, 4].
