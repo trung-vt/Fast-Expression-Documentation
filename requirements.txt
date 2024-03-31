@@ -1,2 +1,4 @@
-numpy
-pandas
+numpy   # Can be replaced entirely with torch?
+pandas  # Can be replaced entirely with torch?
+torch
+pyyaml  # to parse yaml config files
